@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Text-to-Speech Application</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/text-to-speech.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              babyblueb: "#e0f2fe",
+              babyblue: "#bae6fd",
+              babyyellow: "#F2FEE0",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- js -->
+    <script src="index.js" defer></script>
+  </head>
+
+  <body class="flex flex-col items-center justify-center h-screen bg-center bg-cover bg-babyblue">
+    <div class="p-8 text-center rounded-lg shadow-lg bg-babyyellow lg:w-1/2 sm:w-3/4">
+      <!-- Text Area -->
+      <div>
+        <textarea
+          id="text"
+          class="w-full h-24 p-2 mx-auto text-lg bg-white border-2 rounded resize border-babyblue focus:outline-none"
+          placeholder="Type something to be read aloud"></textarea>
+      </div>
+      <!-- Speed and Voice Pitch -->
+      <div class="flex flex-col items-center justify-center mt-4 sm:flex-row" id="speed_voicepitch">
+        <label for="speed" class="block mb-2 sm:mr-4 sm:mb-0">Speed:</label>
+        <input
+          type="number"
+          name="speed"
+          id="speed"
+          min=".5"
+          max="3"
+          step=".5"
+          value="1"
+          class="w-16 p-2 mb-2 border-2 rounded border-babyblue sm:mb-0 sm:mr-4" />
+        <label for="VoicePitch" class="block mb-2 sm:mr-4 sm:mb-0">Voice Pitch:</label>
+        <input
+          type="number"
+          name="VoicePitch"
+          id="VoicePitch"
+          min=".5"
+          max="2"
+          step=".1"
+          value="1"
+          class="w-16 p-2 mb-2 border-2 rounded border-babyblue sm:mb-0" />
+      </div>
+      <!-- Buttons -->
+      <div class="flex justify-center mt-4">
+        <div
+          class="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer"
+          id="play-button">
+          <img src="./assets/play-button.png" alt="Play button" class="mx-auto" />
+        </div>
+        <div
+          class="flex items-center justify-center w-8 h-8 ml-4 rounded-full cursor-pointer"
+          id="pause-button">
+          <img src="./assets/pause-button.png" alt="Pause button" class="mx-auto" />
+        </div>
+        <div
+          class="flex items-center justify-center w-8 h-8 ml-4 rounded-full cursor-pointer"
+          id="stop-button">
+          <img src="./assets/stop-button.png" alt="Stop button" class="mx-auto" />
+        </div>
+      </div>
+      <!-- For Displaying Highlight Text -->
+      <div id="output" class="mt-4 text-lg"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+/* Custom highlight color */
+.highlight {
+  background-color: #ffd699;
+  color: black;
+  padding: 3px;
+}
+/* Custom scrollbar styles */
+textarea::-webkit-scrollbar {
+  width: 5px;
+}
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #888;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
