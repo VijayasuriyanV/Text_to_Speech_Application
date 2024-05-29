@@ -29,7 +29,7 @@ The backbone of this application lies in the `SpeechSynthesisUtterance` object f
 4. **Enhanced User Experience**: Experience seamless integration of visual and auditory feedback with synchronized text highlighting, ensuring clarity and immersion.
 
 ## Screenshots
-https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/Mobile.png
+![Mobile_Preview](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/Mobile.png)
 
 // To be
 
