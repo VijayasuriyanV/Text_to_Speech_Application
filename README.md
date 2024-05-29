@@ -30,7 +30,15 @@ The backbone of this application lies in the `SpeechSynthesisUtterance` object f
 
 ## Screenshots
 ![Mobile_Preview](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/Mobile.png)
-Mobile Preview
+
+![PC_Preview](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/lgDevice.png)
+
+![DEMO_VIDEO](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/Demo.mp4)
+
+
+
+
+
 
 // To be
 
