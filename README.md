@@ -33,14 +33,9 @@ The backbone of this application lies in the `SpeechSynthesisUtterance` object f
 
 ![PC_Preview](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/lgDevice.png)
 
-![DEMO_VIDEO](https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/https://github.com/VijayasuriyanV/Text_to_Speech_Application/blob/main/git_assets/Demo.mp4)
+https://github.com/VijayasuriyanV/Text_to_Speech_Application/assets/75218921/aac190b3-ae0b-4282-b2e5-6e88c792ec08
 
 
-
-
-
-
-// To be
 
 ## Installation
 
