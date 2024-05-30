@@ -92,15 +92,6 @@ function handleWordBoundary(event) {
 
 // Function to pause speech synthesis
 
-// function pauseText() {
-//   if (speechSynthesis.speaking && !speechSynthesis.paused) {
-//     speechSynthesis.pause(); // Pause if speech is currently speaking
-//     isPaused = true; // Set pause state to true
-//     utterance.removeEventListener("boundary", handleWordBoundary); // Remove event listener
-//     currentWordIndex--; // Decrement the current word index
-//   }
-// }
-
 function pauseText() {
   if (speechSynthesis.speaking && !speechSynthesis.paused) {
     speechSynthesis.pause(); // Pause if speech is currently speaking
