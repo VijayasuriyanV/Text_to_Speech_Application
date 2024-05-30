@@ -1,5 +1,7 @@
 # Text-to-Speech Application
 
+[Text-to-Speech Application](https://speechsynthesisutterance.netlify.app/)
+
 This is a simple web-based Text-to-Speech (TTS) application built using HTML, CSS, and JavaScript. It utilizes the powerful SpeechSynthesis API to convert typed text into spoken words with customizable speed and voice pitch.
 
 ## Features
